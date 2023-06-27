@@ -1,0 +1,21 @@
+<div class="w-full h-screen flex flex-col items-center p-20">
+    <h1 class="text-7xl font-bold mb-32 text-gray-800">
+        MLH Form Filling Automator
+    </h1>
+
+    <form class="flex flex-col relative items-center justify-center border-4 border-gray-400 w-96 h-80"
+        enctype="multipart/form-data">
+        <input class="mb-10 hidden" type="file" name="file" id="file" accept=".csv">
+
+        <!-- <label class="bg-blue-500 my-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
+            for="file">Upload CSV</label> -->
+
+        <p class="text-gray-500 file-name text-sm hidden">
+            name of the file
+        </p>
+        <p class="text-gray-500 drg-txt text-sm my-3 cursor-pointer hover:text-blue-500 hover:underline">
+            Drag and drop your CSV file here
+        </p>
+
+    </form>
+</div>
